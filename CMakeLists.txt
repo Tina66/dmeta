@@ -7,7 +7,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules")
 include(ExternalProject)
 include(GtestExternalProject)
 
-#head file path
+#header files path
 include_directories(SYSTEM ${GTEST_INCLUDE_DIR})
 
 # demo_test
