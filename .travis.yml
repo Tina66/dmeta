@@ -1,0 +1,17 @@
+language: cpp
+
+sudo: false
+
+matrix:
+  include:
+    - os: linux
+      compiler: gcc
+
+addons:
+  apt:
+    packages:
+      - cmake
+script:
+  - bash build.sh
+
+  [![Build Status](https://travis-ci.org/Tina66/dmeta.svg?branch=dev)](https://travis-ci.org/Tina66/dmeta)
